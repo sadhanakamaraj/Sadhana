@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse:collapse ;
+            
+            }
+            th,td{
+                text-align: center;
+                padding: 20px;
+            }
+            thead {
+              background-color: #D6EEEE;
+            }
+            .required {
+            content: "*";
+            font-weight: bold;
+            color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <table border="1" align="center">
+            <form action="./form3.html" >
+                <thead>
+                    <tr> <td colspan="2">Registration Form</td> </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Mobile Number <span aria-hidden="true" class="required">*</span></td>
+                    <td> <input type="number" required ></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="Address" id="place" cols="50" rows="6"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Languages</td>
+                    <td>
+                        <ul align="left"type="none">  
+                        <li><input type="checkbox"><label>English</label></li>
+                        <li><input type="checkbox"><label>Tamil</label></li>
+                        <li><input type="checkbox"><label>Telugu</label></li>
+                        <li><input type="checkbox"><label>Hindi</label></li>
+                    </ul>
+                </td>
+                </tr>
+                <tr>
+                    <td>Upload <span aria-hidden="true" class="required">*</span></td>
+                    <td><input type="file" required></td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                    <input type="reset">
+                    <button>submit</button> </td>
+                </tr>
+            </tbody> 
+            </form>
+        </table>
+    </body>
+  </html>
+           

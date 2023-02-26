@@ -1,0 +1,108 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+        <style>
+            table,th,td{
+                border: 1px solid black;
+                border-collapse:collapse ;
+                
+            }
+            th,td{
+                text-align: center;
+                padding: 15px;;
+            }
+            thead {
+              background-color: #D6EEEE;
+            }
+            .required {
+            content: "*";
+            font-weight: bold;
+            color: red;
+        }
+        </style>
+    </head>
+    <body>
+        <table border="1" align="center"  >
+            <form action="./formtask2a.html">
+                <thead>
+                    <tr> <td colspan="2">Registration Form</td> </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <label for="name"> First Name</label>
+                        <span aria-hidden="true">*</span>
+                        <input type="text" required id=" first name" maxlength="15" />
+                        <label for="name"> Last Name</label>
+                        <span aria-hidden="true">*</span>
+                        <input type="text" required  last name" maxlength="12" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" id="mailid" required></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td> Gender</span> </td>
+            
+                    <td align="left">
+                        <ul type="none" align="left">
+                        <li><input type="radio" name="g">
+                        <label>Female</label></li>
+                        <li><input type="radio" name="g">
+                        <label>Male</label></li>
+                        <li><input type="radio" name="g">
+                        <label>Others</label></li>
+                    </ul>
+                     </td>
+                </tr> 
+                <tr>
+                    <td>Select State</td>
+                    <td><p align="left"> Choose your State which you belong</p>
+                    <select>
+                        <option>Andra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Hyderabad</option>
+                        <option>Jhakhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Madhya Pradesh</option>
+                        <option> Maharashtra</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odhisa</option>
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttarkhand</option>
+                        <option>West Bengal</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">
+                    <input type="reset">
+                    <button>Next</button> </td>
+                </tr>
+            </tbody>  
+            </form>
+        </table>
+    </body>
+  </html>
