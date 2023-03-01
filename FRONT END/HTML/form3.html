@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+   <head>
     <style>
     .center{
         display: block;
@@ -8,24 +9,29 @@
         width:"50%";
     }
 </style>
-</style>
-    <body>
-        <form >
-            <img src="../images/image1.png" width="450"height="250" class="center">
-    <h1 align="center"> Fra flowers</h1>
-    <p align="center"> "Carry the beauty of kindness and fragrance with you"</p>
-            <p >Email id</p>
-            <input type="text">
-            <p>Password</p>
-            <input type="password">
-            <p>Contact</p>
-            <input type="number">
-            <p> Select Gender</p>
-            <input type="radio" name="g"><label for=>cash</label>
-            <input type="radio" name="g"><label for=>Credit card</label>
-            <input type="radio" name="g"><label for=>Debit card</label>
-            <input type="radio" name="g"><label for=> UPI</label>
-            <button></button>
-            </form>
-    </body>
+</head>
+<body>
+    <form >
+         <h1 align="center"> Fra flowers</h1>
+         <p align="center"> "Carry the beauty of kindness and fragrance with you"</p>
+        <img src="../images/image1.png" width="450"height="250" class="center">
+    <p >Email id</p>
+    <input type="email" required placeholder="Enter your mail id">
+    <span aria-hidden="true">*</span>
+    <p>Password</p>
+    <input type="password" required placeholder="Enter your password">
+    <span aria-hidden="true">*</span>
+    <p>Contact</p>
+    <input type="number" required placeholder="Enter your number">
+    <span aria-hidden="true">*</span>
+    <p> Select payment mode</p>
+    <ul type="none">
+            <li><input type="radio" name="g"><label for=>cash</label></li>
+            <li><input type="radio" name="g"><label for=>Credit card</label></li>
+            <li><input type="radio" name="g"><label for=>Debit card</label></li>
+            <li><input type="radio" name="g"><label for=> UPI</label></li>
+    </ul>
+     <button> Buy Now</button>
+    </form>
+</body>
 </html>
