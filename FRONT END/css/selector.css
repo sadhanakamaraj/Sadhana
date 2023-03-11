@@ -1,0 +1,28 @@
+#x{
+    color: red;
+}
+.class1{
+    color: blue;
+}
+*{
+    font-family:"Times New Roman', Times, serif";
+}
+h4{
+    color:chartreuse;
+    text-align: justify;
+}
+div p{
+    color: blueviolet;
+}
+#y p{
+    color:aquamarine;
+}
+#z>p{
+    color: rgb(42, 165, 134);
+}
+#z+label{
+    color: darkgreen;
+}
+#z~h5{
+    color: darksalmon;
+}
