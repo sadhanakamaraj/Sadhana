@@ -1,0 +1,191 @@
+*body{
+    font-family: 'Times New Roman', Times, serif;
+}
+#stickybar h1{
+   color: rgb(100, 241, 35); 
+   font-weight: bold;
+}
+#stickybar a:hover{
+    color: red;
+   
+}
+#stickybar{
+    position:sticky;
+    top: 10px;
+    z-index: 999;
+    display: grid;
+    grid-template-columns:repeat(9,Auto);
+    background-color: white;
+}
+#stickybar a{
+    text-decoration: none;
+}
+#secondcontent{
+    text-align: center;
+}
+#secondcontent input{
+    width:800px ;
+    height:40px ;
+    border: solid;
+}
+#contentbg{
+    background-image: url(../images/bg-domain.png);
+}
+
+button{
+   border: none;
+   color: aliceblue;
+   background-color: red;
+   width: auto;
+}
+button:hover{
+    background-color: rgb(53, 211, 14);
+}
+#firstcontent{
+    background-color: rgb(53, 211, 14);
+    color:azure;
+}
+#year h2{
+ color: greenyellow;
+}
+.ecp{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin:80px;
+    justify-content: center;
+
+}
+#hostingcontent{
+    text-align: center;
+}
+.hostinggrid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin:80px;
+    justify-content: center;
+}
+#offer{
+    color: greenyellow;
+}
+#fixedbutton{
+    position:fixed;
+    right:0px;
+    bottom:0px;
+    border-radius: 3px;
+    background-color: red;
+    width:40px;
+    height:40px;
+    text-align: center;
+    font-weight: 600;
+    z-index: 999;
+}
+.hosting{
+    border: 1px solid black;
+    width:400px;
+    height:500px;
+    text-align:center;
+}
+#sddiff{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#sharededicate{
+    text-align: center;
+}
+#sd{
+    display:flex;
+   justify-content: space-around;
+}
+.vertical{
+    border-left: 6px solid grey;
+    height: 500px;
+    position:absolute;
+    left: 50%;
+}
+.sharedservergrid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin:70px;
+    column-gap: 50px;
+}
+.dedicatedservergrid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin:70px;
+    column-gap: 50px;
+}
+#team{
+    text-align: center;
+}
+#slidingcontent{
+    display: flex;
+    margin:70px;
+    column-gap: 50px;
+}
+#cp{
+    display:flex;
+    justify-content: space-around;
+}
+.sc{
+    border: 1px solid black;
+    position: relative;
+}
+#Client{
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    border-radius: 80px;
+
+}
+#teamgrid{
+    display:flex;
+    grid-template-columns:25% 25% 25% 25% ;
+    margin:70px;
+    column-gap:50px;
+    justify-content: space-around;
+}
+.pic{
+   
+    border: 1px solid black;
+    display: block;
+    margin-top: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%  
+}
+.tg{
+    border: 1px solid black;
+    text-align: center;
+}
+input[type=text] {
+    width: 70%;
+    padding: 10px;
+    margin: 2px 0;
+    text-align: center;
+  }
+  
+  #endpage {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
+  
+  #end {
+    background-image:url(../images/bg-bottom-footer.png) ;
+    background-color: rgb(53, 211, 14);
+    color: white;
+  }
+  #sub{
+    color: rgb(53, 211, 14);
+  }
+  .endpagee {
+    color: white;
+  }
+  
+  .signup {
+    padding: 10px;
+  }
+  
+  #submit {
+    background-color: #169647;
+    color: white;
+  }

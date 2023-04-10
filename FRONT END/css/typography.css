@@ -1,0 +1,17 @@
+p{
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 2px;
+    word-spacing:5px;
+    text-align: justify;
+    white-space:wrap;
+    text-transform: capitalize;
+    text-decoration: overline;
+    width: 600px;
+    text-shadow: 1px 2px 4px gray;
+    text-overflow:ellipsis;
+    overflow: hidden;
+} 
